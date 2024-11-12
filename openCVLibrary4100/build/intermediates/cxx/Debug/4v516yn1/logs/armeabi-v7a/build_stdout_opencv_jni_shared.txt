@@ -1,2 +1,0 @@
-ninja: Entering directory `/home/asus/FacialDetection/openCVLibrary4100/.cxx/Debug/4v516yn1/armeabi-v7a'
-ninja: no work to do.

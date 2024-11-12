@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+
     }
 }
 dependencyResolutionManagement {
@@ -21,5 +22,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "FacialDetection"
 include ':app'
-include ':openCVLibrary4100'
-include ':opencv'
+include ':openCV4100'
+include ':OpenCV'
+include ':appcpp'

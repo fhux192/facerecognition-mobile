@@ -1,0 +1,4 @@
+<resources>
+    <!-- Other dimensions -->
+    <dimen name="list_item_height">60dp</dimen>
+</resources>
