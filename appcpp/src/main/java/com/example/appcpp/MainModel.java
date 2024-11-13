@@ -4,15 +4,19 @@ import java.util.List;
 
 public class MainModel {
     private String name;
-    private List<Float> embedding; // Đảm bảo kiểu dữ liệu là List<Float>
+    private List<Float> embedding;
 
-    public MainModel() {} // Constructor mặc định cần thiết cho Firebase
+    // Constructor trống cho Firebase
+    public MainModel() {
+    }
 
+    // Constructor đầy đủ
     public MainModel(String name, List<Float> embedding) {
         this.name = name;
         this.embedding = embedding;
     }
 
+    // Getter và Setter cho name
     public String getName() {
         return name;
     }
@@ -21,6 +25,7 @@ public class MainModel {
         this.name = name;
     }
 
+    // Getter và Setter cho embedding
     public List<Float> getEmbedding() {
         return embedding;
     }

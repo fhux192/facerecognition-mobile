@@ -1,0 +1,4 @@
+/home/asus/Android/Sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /home/asus/FacialDetection/OpenCV/.cxx/Debug/3m473z5i/x86 \
+  opencv_jni_shared

@@ -1,0 +1,26 @@
+{
+  "installationFolder": "/home/asus/FacialDetection/OpenCV/build/intermediates/prefab_package/debug/prefab",
+  "gradlePath": ":OpenCV",
+  "packageInfo": {
+    "packageName": "OpenCV",
+    "packageSchemaVersion": 2,
+    "packageDependencies": [],
+    "modules": [
+      {
+        "moduleName": "opencv_jni_shared",
+        "moduleHeaders": "/home/asus/FacialDetection/OpenCV/native/jni/include",
+        "moduleExportLibraries": [],
+        "abis": [
+          {
+            "abiName": "x86_64",
+            "abiApi": 24,
+            "abiNdkMajor": 26,
+            "abiStl": "c++_shared",
+            "abiLibrary": "/home/asus/FacialDetection/OpenCV/.cxx/Debug/3m473z5i/x86_64/libopencv_jni_shared.a",
+            "abiAndroidGradleBuildJsonFile": "/home/asus/FacialDetection/OpenCV/.cxx/Debug/3m473z5i/x86_64/android_gradle_build.json"
+          }
+        ]
+      }
+    ]
+  }
+}

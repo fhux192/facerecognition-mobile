@@ -26,9 +26,9 @@
         android:id="@+id/showFacesBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="List"
         android:layout_gravity="bottom|end"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:text="Users" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -41,5 +41,5 @@
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        />
+        android:visibility="invisible" />
 </FrameLayout>

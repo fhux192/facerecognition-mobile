@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/list_item_height"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="36dp">
 
     <TextView
         android:id="@+id/nameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Name"
-        android:textSize="18sp" />
+        android:textSize="30sp" />
 
 </LinearLayout>

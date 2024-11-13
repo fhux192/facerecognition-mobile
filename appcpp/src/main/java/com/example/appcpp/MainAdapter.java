@@ -20,7 +20,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<MainModel, MainAdapter.
     @Override
     protected void onBindViewHolder(@NonNull myViewHolder holder, int position, @NonNull MainModel model) {
         holder.name.setText(model.getName());
-        holder.embedding.setText(model.getEmbedding().toString());
+        //holder.embedding.setText(model.getEmbedding().toString());
     }
 
     @NonNull
